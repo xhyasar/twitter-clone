@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+body {
+    @apply bg-black text-white;
+}
+/*
+gen 1265
+   sol side bar 275 px
+   sağ side bar 350 px
+   content auto
+
+ */

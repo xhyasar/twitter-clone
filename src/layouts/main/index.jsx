@@ -1,7 +1,10 @@
-export default function MainLayout({children}) {
+import {Outlet} from "react-router-dom";
+
+export default function MainLayout() {
     return (
-        <div>
+        <div className="w-[1265px] mx-auto">
             main layout!
+            <Outlet />
         </div>
     )
 }
