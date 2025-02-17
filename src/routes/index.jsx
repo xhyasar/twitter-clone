@@ -1,7 +1,7 @@
 import {createBrowserRouter} from "react-router-dom";
-import Explore from "../pages/explore/index.jsx";
-import Notifications from "../pages/notifications/index.jsx";
-import Home from "../pages/home/index.jsx";
+import Home from "~/pages/Home";
+import Explore from "~/pages/Explore";
+import Notifications from "~/pages/Notifications";
 
 const roots = createBrowserRouter([
     {
