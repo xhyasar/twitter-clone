@@ -10,7 +10,8 @@ const roots = createBrowserRouter([
         path: '/',
         element: <MainLayout />,
         children: [
-            {index: true, element: <Home/>},
+            {   index: true,
+                element: <Home/>},
             {
                 path: 'explore',
                 element: <Explore/>
