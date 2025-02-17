@@ -1,17 +1,20 @@
 import {createBrowserRouter} from "react-router-dom";
+import Explore from "../pages/explore/index.jsx";
+import Notifications from "../pages/notifications/index.jsx";
+import Home from "../pages/home/index.jsx";
 
 const roots = createBrowserRouter([
     {
         path: '/',
-        element: 'anasayfa componenti'
+        element: <Home />
     },
     {
         path: '/explore',
-        element: 'explore componenti'
+        element: <Explore/>
     },
     {
         path: '/notifications',
-        element: 'notifications componenti'
+        element: <Notifications />
     }
 ])
 
