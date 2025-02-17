@@ -2,8 +2,8 @@ import {Link} from "react-router-dom";
 
 export default function Logo() {
     return (
-        <div className="py-px">
-        <Link to="/" className="w-13 h-13 roundend-full flex items-center ">
+        <div className="py-0.5">
+        <Link to="/" className="w-13 h-13 rounded-full flex items-center justify-center hover:bg-[#eff3f41a] transition-colors">
             <svg viewBox="0 0 24 24" width={30} height={30}>
                     <path
                         fill="#fff"
