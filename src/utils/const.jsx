@@ -1,27 +1,27 @@
 export const mainMenu = [
     {
-    path: '/',
-    title: 'Anasayfa',
-    notification: 3,
-    icon: {
-        active: (
-             <svg viewBox="0 0 24 24"  width={26.25} height={26.25} className="block ">
-                <path
-                fill="#fff"
-                d="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913H9.14c.51 0 .929-.41.929-.913v-7.075h3.909v7.075c0 .502.417.913.928.913h6.165c.511 0 .929-.41.929-.913V7.904c0-.301-.158-.584-.408-.758z"
-                />
-            </svg>
-        ),
-        passive: (
-            <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
-                <path
-                    fill="#e7e9ea"
-                    d="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913h6.638c.511 0 .929-.41.929-.913v-7.075h3.008v7.075c0 .502.418.913.929.913h6.639c.51 0 .928-.41.928-.913V7.904c0-.301-.158-.584-.408-.758zM20 20l-4.5.01.011-7.097c0-.502-.418-.913-.928-.913H9.44c-.511 0-.929.41-.929.913L8.5 20H4V8.773l8.011-5.342L20 8.764z"
-                />
-            </svg>
-        )
-    }
-},
+        path: '/',
+        title: 'Anasayfa',
+        notification: 3,
+        icon: {
+            active: (
+                <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block ">
+                    <path
+                        fill="#fff"
+                        d="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913H9.14c.51 0 .929-.41.929-.913v-7.075h3.909v7.075c0 .502.417.913.928.913h6.165c.511 0 .929-.41.929-.913V7.904c0-.301-.158-.584-.408-.758z"
+                    />
+                </svg>
+            ),
+            passive: (
+                <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
+                    <path
+                        fill="#e7e9ea"
+                        d="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913h6.638c.511 0 .929-.41.929-.913v-7.075h3.008v7.075c0 .502.418.913.929.913h6.639c.51 0 .928-.41.928-.913V7.904c0-.301-.158-.584-.408-.758zM20 20l-4.5.01.011-7.097c0-.502-.418-.913-.928-.913H9.44c-.511 0-.929.41-.929.913L8.5 20H4V8.773l8.011-5.342L20 8.764z"
+                    />
+                </svg>
+            )
+        }
+    },
     {
         path: '/explore',
         title: 'Keşfet',
@@ -46,32 +46,32 @@ export const mainMenu = [
         },
     },
     {
-    path:'/notifications',
-    title: 'Bildirimler',
-    notification: 3,
-    icon:{
-        active: (
-            <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
-                <path
-                    fill="#fff"
-                    d="M11.996 2c-4.062 0-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958C19.48 5.017 16.054 2 11.996 2zM9.171 18h5.658c-.412 1.165-1.523 2-2.829 2s-2.417-.835-2.829-2z"
-                />
-            </svg>
-        ),
-        passive:(
-            <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
-                <path
-                    fill="#e7e9ea"
-                    d="M19.993 9.042C19.48 5.017 16.054 2 11.996 2s-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958zM12 20c-1.306 0-2.417-.835-2.829-2h5.658c-.412 1.165-1.523 2-2.829 2zm-6.866-4l.847-6.698C6.364 6.272 8.941 4 11.996 4s5.627 2.268 6.013 5.295L18.864 16H5.134z"
-                />
-            </svg>
-        )
+        path: '/notifications',
+        title: 'Bildirimler',
+        notification: 3,
+        icon: {
+            active: (
+                <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
+                    <path
+                        fill="#fff"
+                        d="M11.996 2c-4.062 0-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958C19.48 5.017 16.054 2 11.996 2zM9.171 18h5.658c-.412 1.165-1.523 2-2.829 2s-2.417-.835-2.829-2z"
+                    />
+                </svg>
+            ),
+            passive: (
+                <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
+                    <path
+                        fill="#e7e9ea"
+                        d="M19.993 9.042C19.48 5.017 16.054 2 11.996 2s-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958zM12 20c-1.306 0-2.417-.835-2.829-2h5.658c-.412 1.165-1.523 2-2.829 2zm-6.866-4l.847-6.698C6.364 6.272 8.941 4 11.996 4s5.627 2.268 6.013 5.295L18.864 16H5.134z"
+                    />
+                </svg>
+            )
+        },
     },
-},
     {
-        path:'/messages',
+        path: '/messages',
         title: 'Mesajlar',
-        icon:{
+        icon: {
             active: (
                 <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
                     <path
@@ -80,7 +80,7 @@ export const mainMenu = [
                     />
                 </svg>
             ),
-            passive:(
+            passive: (
                 <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
                     <path
                         fill="#e7e9ea"
@@ -89,33 +89,35 @@ export const mainMenu = [
                 </svg>
             )
         }
-},
+    },
     {
-        path:'/grok',
+        path: '/grok',
         title: 'Grok',
-        icon:{
+        icon: {
             active: (
                 <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
                     <path
                         fill="#fff"
-                        d="M2.205 7.423L11.745 21h4.241L6.446 7.423H2.204zm4.237 7.541L2.2 21h4.243l2.12-3.017-2.121-3.02zM16.957 0L9.624 10.435l2.122 3.02L21.2 0h-4.243zm.767 6.456V21H21.2V1.51l-3.476 4.946z"
+                        clipRule="evenodd"
+                        d="M4 0C1.79 0 0 1.79 0 4v16c0 2.21 1.79 4 4 4h16c2.21 0 4-1.79 4-4V4c0-2.21-1.79-4-4-4H4zm5.982 11.941L16.58 2.55h3.82l-8.509 12.109-1.91-2.718zm-6.678-2.71l8.587 12.219h3.816L7.121 9.23H3.304zm3.813 6.786L3.3 21.45h3.819l1.908-2.715-1.91-2.718zm10.155-7.656V21.45H20.4V3.909L17.272 8.36z"
+                        fillRule="evenodd"
                     />
                 </svg>
             ),
-            passive:(
+            passive: (
                 <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
                     <path
                         fill="#e7e9ea"
-                        clipRule="evenodd" d="M4 0C1.79 0 0 1.79 0 4v16c0 2.21 1.79 4 4 4h16c2.21 0 4-1.79 4-4V4c0-2.21-1.79-4-4-4H4zm5.982 11.941L16.58 2.55h3.82l-8.509 12.109-1.91-2.718zm-6.678-2.71l8.587 12.219h3.816L7.121 9.23H3.304zm3.813 6.786L3.3 21.45h3.819l1.908-2.715-1.91-2.718zm10.155-7.656V21.45H20.4V3.909L17.272 8.36z" fillRule="evenodd"
+                        d="M2.205 7.423L11.745 21h4.241L6.446 7.423H2.204zm4.237 7.541L2.2 21h4.243l2.12-3.017-2.121-3.02zM16.957 0L9.624 10.435l2.122 3.02L21.2 0h-4.243zm.767 6.456V21H21.2V1.51l-3.476 4.946z"
                     />
                 </svg>
             )
         }
     },
     {
-        path:'/community',
+        path: '/community',
         title: 'Topluluklar',
-        icon:{
+        icon: {
             active: (
                 <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
                     <path
@@ -124,7 +126,7 @@ export const mainMenu = [
                     />
                 </svg>
             ),
-            passive:(
+            passive: (
                 <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
                     <path
                         fill="#e7e9ea"
@@ -135,9 +137,9 @@ export const mainMenu = [
         }
     },
     {
-        path:'/profile',
+        path: '/profile',
         title: 'Profil',
-        icon:{
+        icon: {
             active: (
                 <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
                     <path
@@ -146,7 +148,7 @@ export const mainMenu = [
                     />
                 </svg>
             ),
-            passive:(
+            passive: (
                 <svg viewBox="0 0 24 24" width={26.25} height={26.25} className="block">
                     <path
                         fill="#e7e9ea"
