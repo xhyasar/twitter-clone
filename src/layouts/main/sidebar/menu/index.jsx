@@ -48,7 +48,9 @@ export default function Menu() {
                     </div>
                 </div>
             </button>
-            <Button>Abone ol</Button>
+            <div className="py-4 w-[90%]">
+            <Button size="Large"> Gönder </Button>
+            </div>
         </nav>
     )
 }
