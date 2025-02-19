@@ -32,7 +32,7 @@ export default function Menu() {
                     )}
                 </NavLink>
             ))}
-            <More />
+            <More/>
             <NewTweet/>
         </nav>
     )

@@ -21,21 +21,22 @@ export default function More() {
                     </div>
                 </button>
             </Popover.Button>
-            <Popover.Panel className="w-[318px] absolute bottom-0 left-0 bg-black shadow-box rounded-xl overflow-hidden">
-                        <button
-                            className="px-4 h-14 w-full rounded-full transition-colors inline-flex items-center gap-5 hover:bg-[#eff3f41a] ">
-                            <div className="w-[26.25px] h-[26.25px] relative">
-                                <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
-                                    <path
-                                        fill="#e7e9ea"
-                                        d="M3 4.5C3 3.12 4.12 2 5.5 2h13C19.88 2 21 3.12 21 4.5v15c0 1.38-1.12 2.5-2.5 2.5h-13C4.12 22 3 20.88 3 19.5v-15zM5.5 4c-.28 0-.5.22-.5.5v15c0 .28.22.5.5.5h13c.28 0 .5-.22.5-.5v-15c0-.28-.22-.5-.5-.5h-13zM16 10H8V8h8v2zm-8 2h8v2H8v-2z"
-                                    />
-                                </svg>
-                            </div>
-                            <div className="pr-4 text-xl font-bold">
-                                Listeler
-                            </div>
-                        </button>
+            <Popover.Panel
+                className="w-[318px] absolute bottom-0 left-0 bg-black shadow-box rounded-xl overflow-hidden">
+                <button
+                    className="px-4 h-14 w-full rounded-full transition-colors inline-flex items-center gap-5 hover:bg-[#eff3f41a] ">
+                    <div className="w-[26.25px] h-[26.25px] relative">
+                        <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
+                            <path
+                                fill="#e7e9ea"
+                                d="M3 4.5C3 3.12 4.12 2 5.5 2h13C19.88 2 21 3.12 21 4.5v15c0 1.38-1.12 2.5-2.5 2.5h-13C4.12 22 3 20.88 3 19.5v-15zM5.5 4c-.28 0-.5.22-.5.5v15c0 .28.22.5.5.5h13c.28 0 .5-.22.5-.5v-15c0-.28-.22-.5-.5-.5h-13zM16 10H8V8h8v2zm-8 2h8v2H8v-2z"
+                            />
+                        </svg>
+                    </div>
+                    <div className="pr-4 text-xl font-bold">
+                        Listeler
+                    </div>
+                </button>
                 <button
                     className="px-4 h-14 w-full rounded-full transition-colors inline-flex items-center gap-5 hover:bg-[#eff3f41a] ">
                     <div className="w-[26.25px] h-[26.25px] relative">
@@ -136,5 +137,6 @@ export default function More() {
                 </button>
             </Popover.Panel>
         </Popover>
+
     )
 }
